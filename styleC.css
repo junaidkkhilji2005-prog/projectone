@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 40px;
+    background: linear-gradient(to bottom, #ffffff, #dfe1e7);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #eeeff2, #dfe1e7);
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s, background 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.2);
+    background: linear-gradient(135deg, yellow, orange);
+}
